@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
-## only for fail
+
 require 'net/http'
-require 'minitest/fautorun'
+require 'minitest/autorun'
 require 'socket'
 
 class JenkinsSampleTest < MiniTest::Unit::TestCase
